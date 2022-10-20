@@ -1,0 +1,16 @@
+# This is a test done by CTI - this is a false positive
+
+Test #2 - Gojek Tokopedia GoToFinancial - GCP id’s
+
+{
+  "type": "service_account",
+  "project_id": "project-name-in-gcp",
+  "private_key_id": "36fesfsdkjfslkjfdisii3j",
+  "private_key": "-----BEGIN PRIVATE KEY-----\randomtextdoesntmatter\n-----END PRIVATE KEY-----\n",
+  "client_email": "usernameoftheserviceaccount@project-name-in-gcp.iam.gserviceaccount.com",
+  "client_id": "1112983921893182932191",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/usernameoftheserviceaccount@project-name-in-gcp.iam.gserviceaccount.com"
+}
